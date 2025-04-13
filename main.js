@@ -4,7 +4,7 @@ const eventEmitter = new EventEmitter();
 const add = (a, b) => console.log(`Addition: ${a} + ${b}= ${a + b}`);     
 const div = (a, b) => {
     if (b === 0) console.log('error');
-    else console.log(`Multiplication : ${a} / ${b} = ${a / b}`);
+    else console.log(`Division : ${a} / ${b} = ${a / b}`);
 };
 
 eventEmitter.on('add', add);
